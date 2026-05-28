@@ -1,4 +1,4 @@
-{:paths ["modules/core/src" "modules/cli/src" "modules/core/test"]
+{:paths ["modules/core/src" "modules/cli/src" "modules/core/test" "dev"]
  :deps {org.babashka/cli {:mvn/version "0.8.63"}}
  :tasks
  {:requires ([edict.cli] [edict.logic-test])

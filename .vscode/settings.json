@@ -5,7 +5,7 @@
       "projectType": "deps",
       "cljsType": "none",
       "menuSelections": {
-        "cljAliases": ["test"]
+        "cljAliases": ["dev"]
       }
     }
   ]
