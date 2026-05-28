@@ -12,3 +12,8 @@
   (test/run-all-tests #"edict.*"))
 
 (println "user.clj loaded. Call (help) for more info.")
+
+(comment
+  ;; Example usage:
+  (logic/greeting "Developer")
+  (run-tests))
