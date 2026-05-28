@@ -1,0 +1,9 @@
+{:paths ["src" "test"]
+ :deps {org.babashka/cli {:mvn/version "0.8.63"}}
+ :tasks
+ {:requires ([edict.cli] [edict.logic-test])
+  test {:doc "Run tests"
+        :task (let [{:keys [fail error]} (clojure.test/run-tests 'edict.logic-test)]
+                (when (pos? (+ fail error)) (System/exit 1)))}
+  edict-cli {:doc "Run the Edict CLI"
+             :task (apply edict.cli/-main *command-line-args*)}}}

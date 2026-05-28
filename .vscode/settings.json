@@ -1,0 +1,12 @@
+{
+  "calva.replConnectSequence": [
+    {
+      "name": "Deps + Babashka",
+      "projectType": "deps",
+      "cljsType": "none",
+      "menuSelections": {
+        "cljAliases": []
+      }
+    }
+  ]
+}

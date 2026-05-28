@@ -1,0 +1,23 @@
+# Clojure/JVM
+.cpcache/
+.nrepl-port
+.shadow-cljs/
+classes/
+checkouts/
+lib/
+native/
+target/
+pom.xml
+pom.xml.asc
+
+# Babashka
+.bb/
+
+# VS Code
+.calva/
+.lsp/
+.clj-kondo/
+
+# OS specific
+.DS_Store
+Thumbs.db
