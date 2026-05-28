@@ -6,7 +6,8 @@
       "cljsType": "none",
       "menuSelections": {
         "cljAliases": ["dev"]
-      }
+      },
+      "afterCLJJReplJackInCode": "(in-ns 'user)"
     }
   ]
 }
