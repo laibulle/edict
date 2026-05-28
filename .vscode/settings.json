@@ -9,5 +9,13 @@
       },
       "afterCLJJReplJackInCode": "(in-ns 'user)"
     }
-  ]
+  ],
+  "files.exclude": {
+    "**/.calva": true,
+    "**/.clj-kondo": true,
+    "**/.lsp": true,
+    "**/.cpcache": true,
+    "**/.bb": true,
+    "**/.nrepl-port": true
+  }
 }
