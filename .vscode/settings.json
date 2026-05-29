@@ -10,6 +10,7 @@
       "afterCLJJReplJackInCode": "(in-ns 'user)"
     }
   ],
+  "calva.projectTypes": ["deps"],
   "files.exclude": {
     "**/.calva": true,
     "**/.clj-kondo": true,
